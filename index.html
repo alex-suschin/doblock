@@ -37,7 +37,8 @@
 					
 				</div>
 			</div>
-	    </section>
+		</section>
+		
 		<section class="services_wrap">
 			<div class="container">
 				<div class="title">Прайс-лист</div>
@@ -251,6 +252,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.1.62/jquery.inputmask.bundle.js"></script>
     <script type="text/javascript" src="js/frontend.js"></script>
     <script>
+
     	function show_popup() {
 		    $('#popup').addClass('popup_active');
 		    $('#popup').find('.popup').addClass('popup_active');
@@ -262,19 +264,7 @@
 		    $('#popup').find('form').addClass('popup__form__fields_active');
 		    $('#popup').find('form').removeClass('popup__form__thx_active');
 		}
-
-		// function show_popup_reqest() {
-		//     $('#popup2').addClass('popup_active');
-		//     $('#popup2').find('.popup').addClass('popup_active');
-		// }
-
-		// function hide_popup_reqest() {
-		//     $('#popup2').removeClass('popup_active');
-		//     $('#popup2').find('.popup').removeClass('popup_active');
-		//     $('#popup2').find('form').addClass('popup__form__fields_active');
-		//     $('#popup2').find('form').removeClass('popup__form__thx_active');
-		// }
-
+		
 		$('.btn-popup').click(function() {
 		    show_popup();
 		});

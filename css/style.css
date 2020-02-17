@@ -52,10 +52,12 @@
         url('../fonts/GothamPro.svg#GothamPro') format('svg');
     font-weight: normal;
     font-style: normal;
+
 }
 /*
     General
 */
+
 body {
     font-family: 'Gotham Pro', sans-serif;
     font-weight: normal;
